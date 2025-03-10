@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.FormSettings">
+  <properties>
+    <FormSettings version="1.0"/>
+  </properties>
+  <layout>
+    <GridBagLayout/>
+  </layout>
+  <subComponents>
+    <component class="javax.swing.JPanel" name="panelMain">
+      <layout>
+        <GridBagLayout/>
+      </layout>
+      <subComponents>
+        <component class="javax.swing.JLabel" name="labelJudul">
+          <properties>
+            <text value="Judul Buku:"/>
+          </properties>
+          <constraints>
+            <GridBagConstraints gridx="0" gridy="0" anchor="WEST"/>
+          </constraints>
+        </component>
+        <component class="javax.swing.JTextField" name="fieldJudul">
+          <constraints>
+            <GridBagConstraints gridx="1" gridy="0" fill="HORIZONTAL" weightx="1.0"/>
+          </constraints>
+        </component>
+        
+        <component class="javax.swing.JLabel" name="labelPeminjam">
+          <properties>
+            <text value="Nama Peminjam:"/>
+          </properties>
+          <constraints>
+            <GridBagConstraints gridx="0" gridy="1" anchor="WEST"/>
+          </constraints>
+        </component>
+        <component class="javax.swing.JTextField" name="fieldPeminjam">
+          <constraints>
+            <GridBagConstraints gridx="1" gridy="1" fill="HORIZONTAL" weightx="1.0"/>
+          </constraints>
+        </component>
+        
+        <component class="javax.swing.JLabel" name="labelTanggal">
+          <properties>
+            <text value="Tanggal Peminjaman:"/>
+          </properties>
+          <constraints>
+            <GridBagConstraints gridx="0" gridy="2" anchor="WEST"/>
+          </constraints>
+        </component>
+        <component class="javax.swing.JTextField" name="fieldTanggal">
+          <constraints>
+            <GridBagConstraints gridx="1" gridy="2" fill="HORIZONTAL" weightx="1.0"/>
+          </constraints>
+        </component>
+        
+        <component class="javax.swing.JButton" name="buttonPinjam">
+          <properties>
+            <text value="Pinjam Buku"/>
+          </properties>
+          <constraints>
+            <GridBagConstraints gridx="0" gridy="3" gridwidth="2" anchor="CENTER"/>
+          </constraints>
+        </component>
+
+        <component class="javax.swing.JLabel" name="labelDaftarBuku">
+          <properties>
+            <text value="Daftar Buku Dipinjam:"/>
+          </properties>
+          <constraints>
+            <GridBagConstraints gridx="0" gridy="4" gridwidth="2" anchor="WEST"/>
+          </constraints>
+        </component>
+
+        <component class="javax.swing.JScrollPane" name="scrollPaneBuku">
+          <constraints>
+            <GridBagConstraints gridx="0" gridy="5" gridwidth="2" fill="BOTH" weightx="1.0" weighty="1.0"/>
+          </constraints>
+          <subComponents>
+            <component class="javax.swing.JTextArea" name="textAreaDaftarBuku">
+              <properties>
+                <editable value="false"/>
+              </properties>
+            </component>
+          </subComponents>
+        </component>
+      </subComponents>
+    </component>
+  </subComponents>
+</form>
